@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mute-forest-3786",
+  "account_id": "1f99cb5f58b6e1a3789a7092dbe72bb8",
+  "compatibility_date": "2026-10-20",
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    { "pattern": "wildlogic.sk", "custom_domain": true },
+    { "pattern": "www.wildlogic.sk", "custom_domain": true }
+  ]
+}
